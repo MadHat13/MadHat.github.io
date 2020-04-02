@@ -18,22 +18,22 @@
             js内绑定
 
 ``` js
-                XXX.addEventListener{'click',function(){
-                    console.log(");
-                },false}
- ```
+    XXX.addEventListener{'click',function(){
+        console.log(");
+    },false}
+```
 
-            内联绑定多个事件会被覆盖
-            js内可以绑定多个事件不被覆盖
+    内联绑定多个事件会被覆盖
+    js内可以绑定多个事件不被覆盖
 
-            冒泡与捕获
-                若最后参数为false则为冒泡   文档流由子向父
-                若最后参数为true则为捕获    文档流由父向子
+    冒泡与捕获
+        若最后参数为false则为冒泡   文档流由子向父
+        若最后参数为true则为捕获    文档流由父向子
 
     阻止事件冒泡  标准浏览器
 
 ```js
-        e.stopPropagation();
+    e.stopPropagation();
 ```
 
 IE浏览器
